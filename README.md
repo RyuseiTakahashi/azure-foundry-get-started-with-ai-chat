@@ -24,6 +24,8 @@ Instructions are provided for deployment through GitHub Codespaces, VS Code Dev 
 
 ![Architecture diagram showing that user input is provided to the Azure Container App, which contains the app code. With user identity and resource access through managed identity, the input is used to form a response. The input and the Azure monitor are able to use the Azure resources deployed in the solution: Application Insights, Azure AI Project, Foundry Tools, Azure AI Hub, Storage account, Azure Container App, Container Registry, Key Vault, Log Analytics Workspace, and Search Service.](docs/images/architecture.png)
 
+For a RAG-enabled view of the deployment flow, see [RAG-enabled architecture overview](docs/architecture_rag.md).
+
 The app code runs in Azure Container Apps to process the user input and generate a response to the user. It leverages Azure AI projects and Foundry Tools, including the model and search service.
 
 ### Key Features
